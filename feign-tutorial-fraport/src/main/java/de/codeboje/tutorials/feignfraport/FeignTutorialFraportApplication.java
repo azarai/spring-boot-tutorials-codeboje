@@ -30,7 +30,7 @@ public class FeignTutorialFraportApplication implements CommandLineRunner {
 
 		@Override
 		public void apply(RequestTemplate template) {
-			template.header("Authorization", "Bearer <your token>");
+			template.header("Authorization", "Bearer 9eda682e0609d9fa76f93f0190a8c8de");
 
 		}
 
